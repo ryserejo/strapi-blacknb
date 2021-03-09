@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "companies",
+  "info": {
+    "name": "companies",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "ratingScore": {
+      "type": "float"
+    },
+    "about": {
+      "type": "text"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "site": {
+      "type": "string"
+    },
+    "jobvacancies": {
+      "type": "integer"
+    },
+    "images": {
+      "type": "json"
+    },
+    "contact": {
+      "type": "json"
+    },
+    "openingtime": {
+      "type": "json"
+    }
+  }
+}
